@@ -1,12 +1,6 @@
 import views
 from flask import Flask
 
-
-
-#app = Flask(__name__)
-#@app.route('/')
-#def index():
-#   return "Hello World"
    
 def create_app():
     app = Flask(__name__)
@@ -14,7 +8,7 @@ def create_app():
     return app
     
     
-    
+# Variavel de ambiente de desenvolvimento   
 # export FLASK_ENV=development
    
    
